@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,section,footer{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 20px;
+}
+.hero-1{
+    display: flex;
+    justify-content: space-between;
+}
+.mnmn ul{
+display: flex;
+gap: 20px;
+list-style: none;
+font-size: 20px;
+cursor: pointer;
+}
+.pp{
+    color: #555;
+}
+.cc{
+    color: #555;
+}
+.hero{
+    padding: 60px;
+    display: flex;
+}
+.oo img{
+    width: 100%;
+    height: 300px;
+    margin-left: 150%
+}
+.hero span{
+    color: aquamarine;
+}
+.hero h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hero p{
+    margin-bottom: 1.5rem;
+}
+.hero button{
+    padding: 14px 18px;
+    font-size: 14px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 24px;
+}
